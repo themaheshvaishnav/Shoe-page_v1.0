@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img2.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.box {
+  width: 85%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgb(129, 129, 129);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serifS;
+}
+.logo img {
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+}
+.menu ul li {
+  list-style-type: none;
+}
+.menu ul li:hover {
+  cursor: pointer;
+  color: #0055ff;
+}
+.main {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  align-items: center;
+}
+.middle img {
+  width: 100%;
+}
+.left h1 {
+  margin-bottom: 2vh;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left {
+  text-align: center;
+  line-height: 1.5;
+}
+.left button {
+  margin-top: 20px;
+}
+.left button,
+.right button {
+  background-image: url(img2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 30px;
+  color: black;
+  font-weight: 700;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+  font-size: 15px;
+}
+.tt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  margin-top: 30px;
+  text-align: center;
+}
+progress {
+  font-size: 20px;
+}
+.right button {
+  margin-bottom: 15vh;
+}
+.left button:hover,
+.right button:hover {
+  transform: scale(1.15);
+  color: white;
+  background-color: #0055ff;
+  background-image: none;
+}
+.middle img:hover {
+  transform: scale(0.8);
+}
+h1 {
+}
